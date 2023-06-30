@@ -1,0 +1,22 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap {
+        comapatible = "zmk,kaymap";
+
+        default_layer {
+            bindings = <
+                &lt 1 SPACE
+                &kp P
+            >;
+        };
+
+        bl_layer {
+            bindings = <
+                &bt BT_SEL 0
+                &bt BT_CLEAR
+        };
+    };
+};

@@ -1,0 +1,6 @@
+if SHIELD_TWO_BUTTONS
+
+config ZMK_KEYBOARD_NAME
+    default "BigButt" 
+
+endif
