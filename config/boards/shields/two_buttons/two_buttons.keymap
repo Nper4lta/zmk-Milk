@@ -8,14 +8,14 @@
 
         default_layer {
             bindings = <
-                &mo 1
                 &kp P
+                &mo 1
             >;
         };
 
         bl_layer {
             bindings = <
-                &bt BT_SEL 0
+                &bt BT_SEL 1
                 &bt BT_CLEAR
             >;
         };
