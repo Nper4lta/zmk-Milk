@@ -16,7 +16,7 @@
         bl_layer {
             bindings = <
                 &bt BT_SEL 1
-                &bt BT_CLEAR
+                &bt BT_CLR
             >;
         };
     };
