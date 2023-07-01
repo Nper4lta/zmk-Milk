@@ -17,6 +17,7 @@
             bindings = <
                 &bt BT_SEL 0
                 &bt BT_CLEAR
+            >;
         };
     };
 };
